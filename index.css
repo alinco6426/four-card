@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: white;
+    font-family: 'Poppins';
+    background-color: hsl(0, 0%, 98%);
+}
+section{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.second div{
+    width: fit-content;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    border-radius: 6px;
+    padding: 15px;
+
+}
+.content .copy{
+    height: 200px;
+    width: fit-content;
+    margin-right: 50px;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px;
+}
+img{
+    float: right;
+}
+span{
+    font-weight: bold;
+    color: hsl(234, 12%, 34%);
+}
+h1{
+    font-weight: 200;
+    color:hsl(229, 6%, 66%) ;
+}
+p{
+    color:hsl(229, 6%, 66%) ;
+    font-size: 15px;
+    font-weight: 200;
+}
+.super{
+    border-top: 5px cyan solid;
+}
+.team{
+    border-top: 5px red solid;
+    background-color: white;
+}
+.karma{
+    border-top: solid 5px orange ;
+    background-color: white;
+}
+.calculate{
+    border-top: solid 5px blue;
+}
+h3{
+    font-weight: 600;
+}
